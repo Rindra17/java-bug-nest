@@ -17,6 +17,10 @@ public class Employees {
         return employeeName;
     }
 
+    public double calculatePay(){
+        return 1;
+    }
+
     @Override
     public String toString() {
         return "Employees: "
